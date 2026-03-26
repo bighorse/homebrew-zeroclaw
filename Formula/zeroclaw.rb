@@ -10,7 +10,7 @@ class Zeroclaw < Formula
   # Pre-built binary is available for Apple Silicon only.
   # Intel Mac (x86_64) is not supported — use: cargo install zeroclaw
   url "https://github.com/bighorse/zeroclaw/releases/download/v0.1.10/zeroclaw-aarch64-apple-darwin.tar.gz"
-  sha256 "f26b4671da64ffd211cd6b8dbc718b9f4528e0626a8030e1e6405def9490db27"
+  sha256 "5c639d617af3d942a6b16982ae24dea75cf12332e6077c54abd67b2fc5502c8d"
 
   def install
     if Hardware::CPU.intel?
