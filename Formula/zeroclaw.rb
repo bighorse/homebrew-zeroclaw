@@ -4,13 +4,13 @@
 class Zeroclaw < Formula
   desc "Zero overhead. Zero compromise. 100% Rust. The fastest, smallest AI assistant."
   homepage "https://github.com/bighorse/zeroclaw"
-  version "1.3.1"
+  version "1.3.5"
   license "MIT OR Apache-2.0"
 
   # Pre-built binary for Apple Silicon (aarch64-apple-darwin).
   # Works with both /opt/homebrew (native ARM) and /usr/local Homebrew under Rosetta.
-  url "https://github.com/bighorse/zeroclaw/releases/download/v1.3.1/zeroclaw-aarch64-apple-darwin.tar.gz"
-  sha256 "4e095dffa6c84556538260e499fdf0b0492f0261a29412226abc2f3da8c91886"
+  url "https://github.com/bighorse/zeroclaw/releases/download/v1.3.5/zeroclaw-aarch64-apple-darwin.tar.gz"
+  sha256 "2d96af3a0921820200b5e87b43bff4323abdf174e728fcf643a6d1029d1fa83e"
 
   def install
     bin.install "zeroclaw"
